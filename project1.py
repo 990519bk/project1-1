@@ -1,5 +1,5 @@
 import random
-def misty_forest(x,y):
+def misty_forest():
     player_position = 0
     zombie_positon = -5
     goal = 30
