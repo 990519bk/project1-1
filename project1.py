@@ -4,11 +4,10 @@ def misty_forest():
     player_position = 0
     zombie_position = -5
     goal = 30
-    
-    torch_position = random.choice([3,25])
-    compass_position = random.choice([5,25])
-    pitfall_position = random.choice([10,29])
-    windstorm_position = random.choice([15,29])
+    torch_position = random.choice(2,35)
+    compass_position = random.choice(5,35)
+    pitfall_position = random.choice(10,39)
+    windstorm_position = random.choice(15,39)
      
     print("Escape from the Misty Forest!")
     print("You will: avoid zombies and reach the destination")
@@ -45,7 +44,7 @@ def misty_forest():
 
           zombie_position += 1
           print(f"The zombie is {player_position - zombie_position} steps away from you")
-          print("--" * 30)
+          print("🐢" * 30)
 
           if player_position == zombie_position:
                print("🧟 Zombie! You are dead.")
