@@ -15,7 +15,7 @@ def misty_forest():
     print("=" * 60)
 
     while player_position < goal:
-          computer_choice = random.choice(["1","2","3"])
+          computer_choice = random.choice([1,2,3])
           move = int(input("How many steps are you going to take?"))
 
           if move < 1 or move > 3:
