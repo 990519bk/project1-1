@@ -12,6 +12,7 @@ def misty_forest():
     print("Escape from the Misty Forest!")
     print("You will: avoid zombies and reach the destination")
     print("Be sure not to take more than 3 steps at a time!!!")
+    print("=" * 60)
 
     while player_position < goal:
           computer_choice = random.choice(["1","2","3"])
